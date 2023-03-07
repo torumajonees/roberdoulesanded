@@ -35,8 +35,6 @@ sinineautoX = random.randint(300, 460)
 sinineauto2PosX = random.randint(130, 280)
 sinineautokiirus = 0
 
-pygame.display.flip()
-
 # kerge tsukkel, et asjad toimiksid korraparaselt
 gameover = False
 while not gameover:
@@ -94,7 +92,7 @@ while not gameover:
         if punaneautoPosX + 30 >= sinineauto2PosX >= punaneautoPosX - 30:
             gameover = True
 
-    pygame.display.flip()
+    pygame.display.flip()  #ekraan varskendab end
 
 # tsukkel, et ekraan pusima jaaks
     for event in pygame.event.get():
