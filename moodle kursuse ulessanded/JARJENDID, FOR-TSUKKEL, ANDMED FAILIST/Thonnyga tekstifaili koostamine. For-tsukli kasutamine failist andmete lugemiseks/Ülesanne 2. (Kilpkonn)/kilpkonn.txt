@@ -1,0 +1,5 @@
+edasi 100
+paremale 60
+edasi 50
+vasakule 30
+tagasi 100
