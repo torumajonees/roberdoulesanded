@@ -1,5 +1,5 @@
 edasi 100
-paremale 60
-edasi 50
-vasakule 30
-tagasi 100
+vasakule 123
+tagasi 75
+paremale 25
+edasi 150
